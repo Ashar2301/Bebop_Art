@@ -1,0 +1,97 @@
+.elements{
+    display: flex;
+    flex-direction: column;
+}
+
+ input[type="email"] , input[type="password"] , input[type="text"],input{
+    height: 5vh;
+    width: 80%;
+    color : #EDEDED;
+    background: none;
+    margin-left: auto;
+    margin-bottom: 2vh;
+    margin-right: auto;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 18px;
+    font-weight: 800;
+}
+input[type="email"]:focus{
+    color : #EDEDED;
+}
+input[type="password"]:focus{
+    color : #EDEDED;
+}
+input[type="text"]:focus{
+    color : #EDEDED;
+}
+.emailAlert , .pswdAlert{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    margin: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    border : 2px solid #E2574C;
+    border-radius: 2%;
+    color:  #E2574C;
+    font-size: large;
+}
+.emailAlert > img{
+    padding: 2vh;
+}
+.btn{
+    height: 5vh;
+    width: 40%;
+    margin-bottom: 2vh;
+    margin-left: 9vh;
+    color: white;
+    background: none;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #787A91;
+    border: 1px solid white;
+}
+
+.btn:hover{
+    color : #4bcffa;
+    border: 1px solid #4bcffa;
+    transition: .2s;
+}
+.SigninMenu{
+    
+   width: 65vw;
+    min-height: 40vh;
+    margin-top: 0;
+    padding-top: 0;
+    margin-top: 20%;
+}
+.SigninMenu>h1{
+    margin-left: 40%;
+    color : #EDEDED;
+}
+.googleLoginButton{
+    margin-left: auto;
+    margin-bottom: 4vh;
+    margin-right: auto;
+    height: 5vh;
+    width: 40%;
+    background-color: white;
+}
+.textonly{
+    font-size: larger;
+    color : #EDEDED;
+    font-weight: 700;
+    margin-left: 9vh;
+
+}
+@media screen and (max-width : 768px) {
+    .SigninMenu{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Boombox
+* source:	https://sketchfab.com/3d-models/boombox-085ffb9b642b4f17a9cd41d2e7453b6c
+* author:	elpatio (https://sketchfab.com/elpatio)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Boombox" (https://sketchfab.com/3d-models/boombox-085ffb9b642b4f17a9cd41d2e7453b6c) by elpatio (https://sketchfab.com/elpatio) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

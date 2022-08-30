@@ -1,0 +1,130 @@
+html ::-webkit-scrollbar{
+    
+    width: 1vw;
+}
+html ::-webkit-scrollbar :hover{
+    
+    background-color: wheat;
+}
+html ::-webkit-scrollbar-thumb{
+    
+    background-color: #161616;
+}
+html ::-webkit-scrollbar-thumb :hover{
+    
+    background-color: wheat;
+}
+html ::-webkit-scrollbar-track{
+    
+    background-color: #ebebeb;
+}
+.Main{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    width: 99.5vw;
+    height: 99.5vh;
+    padding: 0%;
+    margin: 0%;
+    background-color: #161616;
+    color: #EFEFEF;
+}
+.Songs{
+    width: 60vw;
+    height: 99vh;
+    
+    overflow: scroll;
+}
+.Upload{
+    width: 30vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid wheat; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: 0 0 10px #EDEDED;
+    border-radius: 1vh;
+}
+.submit{
+    height: 5vh;
+    width: 40%;
+    color: white;
+    background: none;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #227093;
+    border: 1px solid white;
+}
+.songs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 7vh;
+    border-radius: 2vh;
+    padding: 1vh;
+}
+.artwork{
+    width: 5vh;
+    height: 5vh;
+}
+.artworkDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+    font-weight: 800;
+    font-size: large;
+    padding: 0%;
+    margin: 0%;
+}
+.artist{
+    font-weight: 700;
+}
+.likes{
+    margin-left: 1vw;
+    font-weight: 600;;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between  ; */
+    border-bottom: 1px solid #EFEFEF;
+    margin-bottom: 1vw;
+}
+.h1{
+    width: 75%;
+    margin-left: 25%;
+}
+.h2{
+    width: 25%;
+    margin-right: 8%;
+}
+.artistpfp{
+    width: 23vh;
+    height: 23vh;
+    border-radius: 50%;
+}
+.artistName{
+    font-size: 8vh;
+    margin: 0;
+    padding: 0;
+}
+.artistLikes{
+    font-size: 3vh;
+    margin: 0;
+    padding: 0;
+}
+.artistDiv{
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}

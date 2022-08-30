@@ -1,0 +1,117 @@
+.elements{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration:  none;
+}
+
+ input[type="email"] , input[type="password"]{
+    height: 5vh;
+    width: 80%;
+    color: #EDEDED;
+    background: none;
+    /* margin-left: auto;
+    
+    margin-right: auto; */
+    margin-bottom: 2vh;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+input[type="email"]:focus{
+    color : #EDEDED;
+}
+input[type="password"]:focus{
+    color : #EDEDED;
+}
+.alert{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    margin: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    border : 2px solid #787A91;
+    border-radius: 2%;
+    color:  #787A91;
+    font-size: large;
+}
+.alert > img{
+    padding: 2vh;
+}
+.btn,.btn2{
+    height: 5vh;
+    width: 40%;
+    margin-bottom: 2vh;
+    margin-left: 9vh;
+    color: white;
+    background: none;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #227093;
+    border: 1px solid white;
+}
+.btn{
+    background-color: #787A91;
+}
+.btn2{
+    background-color: #3C415C;
+}
+
+.btn:hover , .btn2:hover{
+    color : white;
+    border: 1px solid black;
+    transition: .2s;
+}
+.SigninMenu{
+   
+   width: 65vw;
+    min-height: 40vh;
+    margin-top: 0;
+    padding-top: 0;
+    color:white;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 20%;
+    background-color: #161616;
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+  font-family: 'Lobster', cursive;
+}
+.SigninMenu > h1{
+    color : #EDEDED;
+    margin-left: 9vh;
+}
+
+
+.google{
+    margin-right: 19vh;
+}
+.googleLoginButton{
+   
+    margin-bottom: 4vh;
+   margin-left: 0;
+    height: 5vh;
+    width: 40%;
+    background-color: white;
+}
+@media screen and (max-width:768px) {
+    .SigninMenu{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1vh;
+        background: #1e272e;
+    }
+    .googleLoginButton{
+        margin-left: 15%;
+       
+        padding: 0;
+    }
+    
+}

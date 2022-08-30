@@ -1,0 +1,28 @@
+.header{
+    height: 10vh;
+    color: #EDEDED;
+    display: flex;
+    border-bottom: 1px solid #EDEDED;
+}
+.header2{
+    height: 10vh;
+    color: #EDEDED;
+    display: flex;
+    border-bottom: 1px solid #EDEDED;
+}
+.logo{
+    width: 14vh;
+    height: 10vh;
+}
+.logoDiv{
+    margin-left: auto;
+    margin-right: auto;
+}
+.logOut{
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    margin-right: 1vh;
+}
